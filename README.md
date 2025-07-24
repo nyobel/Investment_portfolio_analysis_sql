@@ -18,7 +18,7 @@ The data is **AI-generated** and designed to reflect realistic financial structu
 - `clients` and `portfolios` were ingested via `BULK INSERT` using a stored procedure `bronze.load_bronze`.
 - Due to decimal compatibility issues with SQL Server Express/Developer editions:
   - `investments`, `portfolio_performance`, and `transactions` were imported using **Flat File Import Wizard**.
-- All DDL scripts and the load procedure are included and documented in the `/sql` folder.
+- All DDL scripts and the load procedure are included and documented in the `/scripts/bronze` folder.
 
 ---
 
