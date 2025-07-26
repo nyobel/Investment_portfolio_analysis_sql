@@ -20,14 +20,30 @@ The data is **AI-generated** and designed to reflect realistic financial structu
   - `investments`, `portfolio_performance`, and `transactions` were imported using **Flat File Import Wizard**.
 - All DDL scripts and the load procedure are included and documented in the `/scripts/bronze` folder.
 
+
+## ⚙️ Silver Layer (Status: ✅ Completed)
+
+- Created cleaned versions of the Bronze tables under the `silver` schema.
+- Built a stored procedure `silver.load_silver` that:
+  - **Deletes existing records** in the correct referential order (child → parent) to avoid FK conflicts.
+  - **Inserts cleaned data** with logic applied such as:
+    - Trimming whitespace
+    - Replacing invalid values (e.g., negative amounts or underage clients)
+    - Standardizing `transaction_type` entries
+    - Creating derived fields like `age_group`
+- Maintains foreign key constraints between related tables to preserve integrity.
+- Logging and error handling is built into the procedure using `TRY...CATCH` and `PRINT` statements.
+- All scripts are available in the `/scripts/silver` folder.
+
 ---
 
 ## 🛣️ Next Steps
 
-The Silver and Gold layers will follow:
+The Gold layer will focus on:
 
-- **Silver Layer**: Apply transformations, enforce constraints, join logic, and derive analytical columns.
-- **Gold Layer**: Design business-focused views, KPIs, and potential dashboard integrations.
+- Designing **business-focused views** for executive analysis
+- Calculating **KPIs** such as portfolio growth, client activity, and risk exposure
+- Laying the groundwork for possible **Power BI** or **Tableau** integration
 
 ---
 
