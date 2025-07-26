@@ -1,0 +1,201 @@
+client_id,name,email,age,occupation,risk_profile,onboard_date,region
+1,Patricia Russell,patricia.russell@hotmail.com,25,Banker,Low,7/14/2022,Nakuru
+2,David Cordova,david.cordova@gmail.com,35,Consultant,Medium,6/8/2025,Kisumu
+3,Carl Hernandez,carl.hernandez@hotmail.com,23,Consultant,Medium,4/14/2025,Eldoret
+4,Michelle Williams,michelle.williams@hotmail.com,42,Consultant,High,6/17/2025,Nakuru
+5,Andrew Costa,andrew.costa@yahoo.com,22,Doctor,High,9/24/2022,Mombasa
+6,Mary Drake,invalid_email@,27,Banker,Medium,8/5/2022,Thika
+7,Cheryl Harvey,cheryl.harvey@gmail.com,27,Entrepreneur,High,9/14/2023,Nakuru
+8,Johnny Hernandez,johnny.hernandez@hotmail.com,22,Banker,Medium,2/23/2023,Nakuru
+9,Tammy Jenkins,tammy.jenkins@gmail.com,29,Farmer,Medium,3/18/2023,Nakuru
+10,Derek Russo,derek.russo@gmail.com,32,Consultant,High,8/15/2023,Nakuru
+11,Donald Taylor,donald.taylor@gmail.com,-5,Banker,Medium,1/28/2025,Nakuru
+12,Amy Robinson,amy.robinson@gmail.com,34,Farmer,High,11/30/2023,Mombasa
+13,Maria Young,maria.young@yahoo.com,44,Teacher,Medium,6/6/2023,Nairobi
+14,Jeremy Snyder,jeremy.snyder@yahoo.com,58,Farmer,Low,10/7/2022,Kisumu
+15,Debra Wolfe,debra.wolfe@yahoo.com,52,Doctor,Medium,5/16/2023,Thika
+16,Lawrence Hudson,lawrence.hudson@gmail.com,59,Doctor,Low,8/31/2022,Eldoret
+17,Jesse Pugh,jesse.pugh@hotmail.com,53,Consultant,Medium,2/20/2025,Thika
+18,Aaron Powell,aaron.powell@hotmail.com,49,Civil Servant,Medium,6/9/2025,Kisumu
+19,Frances Bradley MD,frances.md@hotmail.com,30,Engineer,High,1/4/2025,Kisumu
+20,Jesse Cox,jesse.cox@hotmail.com,46,Doctor,Low,6/1/2023,Thika
+21,Jennifer Little,jennifer.little@hotmail.com,57,Civil Servant,Low,1/17/2025,
+22,Ronald Shannon,ronald.shannon@yahoo.com,38,Engineer,High,4/14/2023,Mombasa
+23,Michael Brown,michael.brown@yahoo.com,63,Consultant,High,9/29/2022,Thika
+24,Karen Taylor,karen.taylor@hotmail.com,42,Engineer,High,10/2/2023,Mombasa
+25,Ronald Anderson,ronald.anderson@gmail.com,31,Consultant,High,2/12/2023,Kisumu
+26,Benjamin Rodriguez,benjamin.rodriguez@hotmail.com,47,Civil Servant,High,3/1/2023,Eldoret
+27,Jennifer White,jennifer.white@hotmail.com,51,Banker,Low,11/6/2022,Eldoret
+28,Luis Butler,luis.butler@gmail.com,39,Engineer,Low,10/29/2024,Eldoret
+29,Julie Kim,julie.kim@gmail.com,62,Banker,Medium,3/28/2023,Thika
+30,Timothy Johnson,timothy.johnson@yahoo.com,53,Consultant,Low,9/5/2022,Eldoret
+31,Alyssa Johnson,alyssa.johnson@yahoo.com,30,Civil Servant,Medium,7/14/2022,Eldoret
+32,Kristina Johns,kristina.johns@gmail.com,41,Banker,Medium,5/7/2023,Nakuru
+33,Nicholas Barnett,nicholas.barnett@yahoo.com,52,Doctor,Medium,11/23/2022,Nairobi
+34,John Owens,john.owens@hotmail.com,31,Farmer,Low,10/31/2024,Kisumu
+35,Andrea Burns,andrea.burns@hotmail.com,58,Teacher,Low,8/27/2022,Thika
+36,Manuel Mendez,manuel.mendez@gmail.com,38,Doctor,High,12/26/2022,Nakuru
+37,Benjamin Smith,benjamin.smith@hotmail.com,37,Entrepreneur,Low,7/15/2022,Eldoret
+38,Alexandra Preston,alexandra.preston@hotmail.com,61,Civil Servant,High,12/25/2023,Kisumu
+39,James Hunter,james.hunter@hotmail.com,32,Engineer,Medium,10/18/2022,Kisumu
+40,Crystal Cobb,crystal.cobb@gmail.com,63,Teacher,Medium,9/27/2024,Thika
+41,Michael Fernandez,michael.fernandez@yahoo.com,37,Engineer,High,11/30/2022,Mombasa
+42,William Mendez,william.mendez@yahoo.com,47,Doctor,Low,5/20/2024,Thika
+43,Michael Stewart,michael.stewart@yahoo.com,27,Doctor,Low,4/29/2023,Nairobi
+44,Mr. Anthony Moreno,mr..moreno@hotmail.com,47,Consultant,Low,8/22/2022,Mombasa
+45,Michelle Walter,michelle.walter@gmail.com,51,Civil Servant,Medium,11/29/2022,Nakuru
+46,Christian Lee,christian.lee@hotmail.com,40,Civil Servant,Low,1/25/2024,Thika
+47,Daniel Watkins,daniel.watkins@yahoo.com,26,Doctor,Medium,1/14/2024,Eldoret
+48,Lindsey Simmons,lindsey.simmons@hotmail.com,24,Teacher,Low,9/7/2022,Kisumu
+49,Glenn King,glenn.king@gmail.com,25,Banker,Medium,2/18/2023,Nairobi
+50,Megan Morgan,megan.morgan@gmail.com,54,Doctor,High,3/26/2025,Nairobi
+51,Mark Bell,mark.bell@hotmail.com,37,Farmer,High,12/20/2022,Eldoret
+52,Nancy Wallace,nancy.wallace@yahoo.com,29,Doctor,Medium,5/7/2024,Kisumu
+53,Kenneth Edwards MD,kenneth.md@yahoo.com,59,Civil Servant,Low,7/29/2024,Nairobi
+54,Devin Padilla,devin.padilla@yahoo.com,63,Teacher,High,5/22/2023,Mombasa
+55,Elizabeth Wilson,elizabeth.wilson@yahoo.com,45,Civil Servant,Low,7/14/2022,Thika
+56,Daniel Sullivan,daniel.sullivan@gmail.com,34,Teacher,Low,7/11/2024,Thika
+57,Brandy Rice,brandy.rice@gmail.com,30,Farmer,Medium,8/3/2022,Nakuru
+58,Jeffrey Sweeney,jeffrey.sweeney@hotmail.com,32,Banker,High,11/5/2024,Nakuru
+59,Maureen Ward,maureen.ward@hotmail.com,54,Banker,High,7/15/2024,Nakuru
+60,Katherine Jackson,katherine.jackson@gmail.com,29,Teacher,Medium,12/14/2022,Kisumu
+61,Shannon Conley,shannon.conley@hotmail.com,62,Engineer,High,2/25/2025,Nakuru
+62,Michael Ryan,michael.ryan@hotmail.com,23,Farmer,Low,10/18/2024,Eldoret
+63,Jacob Sanchez,jacob.sanchez@yahoo.com,41,Banker,High,5/26/2024,Thika
+64,Thomas Adams,thomas.adams@gmail.com,59,Engineer,Medium,2/20/2023,Kisumu
+65,Bryan Smith,bryan.smith@hotmail.com,63,Consultant,Medium,6/5/2023,Kisumu
+66,Anthony Russo,anthony.russo@hotmail.com,52,Consultant,High,11/25/2024,Kisumu
+67,Meghan Salazar,meghan.salazar@gmail.com,57,Civil Servant,Low,12/20/2024,Thika
+68,Christopher Smith,christopher.smith@hotmail.com,37,Entrepreneur,Low,11/13/2022,Nakuru
+69,Melvin Sanchez,melvin.sanchez@yahoo.com,26,Entrepreneur,High,3/6/2024,Mombasa
+70,Larry Jackson,larry.jackson@hotmail.com,46,Farmer,Low,10/2/2024,Mombasa
+71,Andrew Rose,andrew.rose@hotmail.com,38,Engineer,High,3/11/2024,Nakuru
+72,Kimberly Harvey,kimberly.harvey@gmail.com,59,Consultant,Medium,5/17/2024,Thika
+73,Jorge Robinson,jorge.robinson@hotmail.com,39,Entrepreneur,High,11/17/2023,Kisumu
+74,Karla Wallace,karla.wallace@yahoo.com,55,Banker,Low,6/30/2024,Mombasa
+75,Julia Little,julia.little@gmail.com,43,Farmer,Low,9/25/2023,Nairobi
+76,Mary Williams,mary.williams@hotmail.com,62,Engineer,High,12/12/2024,Eldoret
+77,Patricia Morales,patricia.morales@yahoo.com,49,Civil Servant,Medium,12/5/2023,Eldoret
+78,Matthew Evans,matthew.evans@yahoo.com,51,Civil Servant,High,9/29/2024,Mombasa
+79,Sandra Gonzalez,sandra.gonzalez@yahoo.com,45,Engineer,Low,9/15/2022,Kisumu
+80,David Olson,david.olson@gmail.com,42,Consultant,High,7/6/2023,Thika
+81,Joseph Thompson,joseph.thompson@yahoo.com,54,Civil Servant,Low,8/2/2024,Eldoret
+82,Meghan Wilson,meghan.wilson@hotmail.com,60,Teacher,Medium,11/14/2024,Mombasa
+83,Christine Carpenter,christine.carpenter@yahoo.com,54,Civil Servant,Low,4/30/2025,Eldoret
+84,Jose Parsons,jose.parsons@hotmail.com,48,Consultant,Medium,3/24/2025,Thika
+85,Jonathan Maynard,jonathan.maynard@yahoo.com,30,Banker,Low,11/11/2023,Nairobi
+86,Valerie Sherman,valerie.sherman@yahoo.com,43,Doctor,Medium,10/3/2022,Eldoret
+87,Damon Rogers,damon.rogers@gmail.com,44,Banker,Low,3/18/2025,Nairobi
+88,Timothy Yang,timothy.yang@gmail.com,56,Teacher,Low,7/16/2024,Eldoret
+89,Amber Leblanc,amber.leblanc@yahoo.com,33,Entrepreneur,Medium,10/21/2024,Thika
+90,Blake Smith,blake.smith@yahoo.com,44,Teacher,Medium,8/11/2022,Thika
+91,David Jacobson,david.jacobson@hotmail.com,57,Doctor,Low,10/30/2022,Mombasa
+92,Dr. Shannon Mendoza,dr..mendoza@hotmail.com,32,Consultant,Medium,8/31/2022,Thika
+93,Kristen Carlson,kristen.carlson@gmail.com,54,Civil Servant,Low,4/26/2024,Nairobi
+94,Joshua Wells,joshua.wells@yahoo.com,44,Teacher,High,11/3/2023,Mombasa
+95,Martin Taylor,martin.taylor@hotmail.com,60,Consultant,High,10/4/2024,Eldoret
+96,Dr. Darren Knapp MD,dr..md@gmail.com,30,Civil Servant,High,10/15/2022,Nakuru
+97,Katelyn Brandt,katelyn.brandt@yahoo.com,64,Entrepreneur,Medium,1/19/2024,Nakuru
+98,Peter Howard,peter.howard@gmail.com,49,Engineer,High,10/6/2022,Eldoret
+99,Eric Edwards,eric.edwards@yahoo.com,53,Teacher,Low,8/15/2022,Mombasa
+100,Lauren Campbell,lauren.campbell@hotmail.com,65,Entrepreneur,High,6/27/2024,Nakuru
+101,Morgan Frank,morgan.frank@gmail.com,27,Doctor,Medium,7/6/2024,Thika
+102,Anthony Crawford,anthony.crawford@hotmail.com,29,Banker,Medium,12/11/2024,Eldoret
+103,Ricky Thomas,ricky.thomas@gmail.com,30,Teacher,Medium,11/20/2023,Kisumu
+104,Ronald Wood,ronald.wood@gmail.com,57,Engineer,Medium,5/7/2023,Eldoret
+105,Phillip Foster,phillip.foster@gmail.com,63,Entrepreneur,High,10/22/2024,Nairobi
+106,Ernest Hoffman,ernest.hoffman@yahoo.com,42,Farmer,Medium,6/4/2023,Kisumu
+107,Amy Fowler,amy.fowler@yahoo.com,64,Teacher,Medium,4/12/2025,Kisumu
+108,Rachel Estrada,rachel.estrada@gmail.com,39,Farmer,Low,7/19/2024,Eldoret
+109,Raymond Liu,raymond.liu@hotmail.com,60,Engineer,Low,11/26/2024,Eldoret
+110,Mitchell Brown,mitchell.brown@yahoo.com,31,Consultant,Low,7/28/2022,Nakuru
+111,David Stephens,david.stephens@gmail.com,53,Teacher,Medium,5/3/2025,Mombasa
+112,Jesus Sims,jesus.sims@hotmail.com,31,Entrepreneur,High,12/22/2024,Kisumu
+113,Maureen Hudson,maureen.hudson@yahoo.com,46,Entrepreneur,Low,4/23/2023,Thika
+114,Craig Clay,craig.clay@gmail.com,46,Entrepreneur,Medium,9/29/2023,Mombasa
+115,Nicholas Bryant,nicholas.bryant@gmail.com,57,Consultant,High,2/7/2024,Kisumu
+116,Cassandra King,cassandra.king@gmail.com,24,Banker,Medium,7/31/2023,Kisumu
+117,Deborah Simmons,deborah.simmons@yahoo.com,56,Doctor,Medium,3/24/2025,Nairobi
+118,Thomas Henson,thomas.henson@gmail.com,60,Civil Servant,Medium,8/29/2023,Nakuru
+119,Stacy Gillespie,stacy.gillespie@yahoo.com,45,Banker,Low,7/29/2022,Nairobi
+120,Tiffany Williams,tiffany.williams@yahoo.com,38,Entrepreneur,Medium,9/18/2024,Eldoret
+121,Joseph Martinez,joseph.martinez@hotmail.com,40,Consultant,Medium,9/26/2024,Nairobi
+122,Brent Aguirre,brent.aguirre@yahoo.com,53,Doctor,Low,12/30/2022,Mombasa
+123,Matthew Bell,matthew.bell@yahoo.com,38,Teacher,Medium,2/25/2024,Thika
+124,Jennifer Hill DVM,jennifer.dvm@hotmail.com,58,Engineer,Low,1/5/2025,Thika
+125,Jennifer Vargas,jennifer.vargas@gmail.com,33,Civil Servant,Medium,2/12/2023,Nakuru
+126,Mary Jones,mary.jones@yahoo.com,23,Consultant,High,3/24/2025,Nakuru
+127,Kayla Smith,kayla.smith@hotmail.com,44,Banker,High,7/2/2023,Nakuru
+128,Megan Barnes,megan.barnes@gmail.com,32,Doctor,Medium,1/9/2025,Thika
+129,Christopher Flores,christopher.flores@gmail.com,26,Doctor,High,7/8/2024,Thika
+130,Gabriel Mccall,gabriel.mccall@hotmail.com,40,Civil Servant,High,11/11/2022,Kisumu
+131,Melanie Campbell,melanie.campbell@gmail.com,22,Consultant,Low,5/28/2023,Mombasa
+132,Michele Torres,michele.torres@gmail.com,22,Consultant,High,8/29/2022,Nakuru
+133,Gregory Thompson,gregory.thompson@gmail.com,43,Teacher,Low,3/26/2023,Eldoret
+134,Sarah Smith,sarah.smith@yahoo.com,31,Teacher,Low,5/4/2025,Thika
+135,Patrick Horne,patrick.horne@yahoo.com,41,Teacher,Medium,5/4/2023,Nakuru
+136,Jennifer Moore,jennifer.moore@hotmail.com,48,Entrepreneur,Medium,6/25/2023,Mombasa
+137,Morgan Perez,morgan.perez@yahoo.com,45,Farmer,Medium,6/19/2024,Mombasa
+138,Renee Stevens,renee.stevens@yahoo.com,37,Engineer,Low,10/17/2022,Mombasa
+139,Adam Cannon,adam.cannon@hotmail.com,63,Farmer,High,7/15/2024,Eldoret
+140,Melissa Brown,melissa.brown@gmail.com,53,Entrepreneur,Low,10/25/2024,Thika
+141,Justin Simpson,justin.simpson@gmail.com,53,Civil Servant,Low,9/26/2022,Nairobi
+142,Sara Byrd,sara.byrd@gmail.com,41,Civil Servant,High,12/10/2024,Mombasa
+143,Diane Casey,diane.casey@yahoo.com,36,Teacher,Medium,12/9/2022,Thika
+144,Casey Wallace,casey.wallace@yahoo.com,48,Consultant,High,1/12/2024,Kisumu
+145,Cheryl Fowler,cheryl.fowler@yahoo.com,41,Civil Servant,Low,11/6/2024,Thika
+146,Yvette Moody,yvette.moody@yahoo.com,53,Consultant,Medium,8/15/2022,Kisumu
+147,Richard Rosales,richard.rosales@hotmail.com,49,Consultant,Low,1/22/2024,Eldoret
+148,Nicole Morse,nicole.morse@hotmail.com,65,Teacher,High,10/25/2023,Kisumu
+149,Daniel Keller,daniel.keller@hotmail.com,54,Farmer,Low,10/16/2024,Kisumu
+150,William Valentine,william.valentine@yahoo.com,40,Teacher,Low,8/11/2022,Nakuru
+151,Lisa Guzman,lisa.guzman@hotmail.com,45,Banker,High,1/17/2023,Kisumu
+152,Sandra Jones,sandra.jones@yahoo.com,35,Engineer,Medium,6/11/2024,Eldoret
+153,Tiffany Garcia,tiffany.garcia@hotmail.com,41,Teacher,Medium,8/8/2022,Eldoret
+154,Peter Miranda,peter.miranda@gmail.com,60,Teacher,High,5/7/2023,Mombasa
+155,Emily Mason,emily.mason@yahoo.com,63,Civil Servant,Medium,9/6/2023,Mombasa
+156,Diane Roach,diane.roach@hotmail.com,42,Civil Servant,Low,9/25/2022,Nakuru
+157,Vanessa Carter,vanessa.carter@hotmail.com,24,Doctor,Medium,4/11/2024,Thika
+158,Steven Johnson,steven.johnson@gmail.com,32,Consultant,High,7/24/2022,Thika
+159,Julie Bowen,julie.bowen@yahoo.com,33,Farmer,High,11/18/2024,Nairobi
+160,Jody Ortiz,jody.ortiz@gmail.com,49,Farmer,Medium,8/24/2024,Mombasa
+161,Cole Henderson,cole.henderson@hotmail.com,33,Consultant,Low,10/29/2024,Thika
+162,Michael Fowler,michael.fowler@gmail.com,36,Civil Servant,Medium,10/2/2023,Mombasa
+163,Steven Williams,steven.williams@gmail.com,34,Entrepreneur,Medium,10/9/2022,Nairobi
+164,Virginia Fields,virginia.fields@gmail.com,26,Civil Servant,Medium,11/18/2024,Kisumu
+165,Jose Fernandez,jose.fernandez@gmail.com,44,Banker,High,12/29/2023,Nakuru
+166,Joseph Harris,joseph.harris@yahoo.com,49,Consultant,High,6/17/2025,Thika
+167,Rachel Gonzales,rachel.gonzales@yahoo.com,30,Banker,Low,9/19/2023,Nakuru
+168,Mr. Gary Mcdowell MD,mr..md@yahoo.com,27,Teacher,Low,7/15/2023,Nakuru
+169,Diana Alvarado,diana.alvarado@yahoo.com,48,Consultant,Medium,6/24/2025,Nairobi
+170,Amanda Wilson,amanda.wilson@gmail.com,32,Teacher,Low,7/14/2024,Eldoret
+171,Beth Garcia,beth.garcia@gmail.com,38,Entrepreneur,High,9/7/2023,Kisumu
+172,Erika Davis,erika.davis@yahoo.com,23,Teacher,Medium,6/9/2023,Nairobi
+173,Timothy Jones,timothy.jones@gmail.com,44,Civil Servant,Medium,9/7/2023,Nairobi
+174,John Flynn,john.flynn@hotmail.com,26,Doctor,Medium,8/21/2022,Nairobi
+175,Kevin Payne,kevin.payne@yahoo.com,39,Teacher,High,4/8/2025,Nairobi
+176,Amanda Thomas,amanda.thomas@gmail.com,61,Teacher,High,11/23/2024,Mombasa
+177,Nathan Nunez,nathan.nunez@hotmail.com,60,Doctor,High,4/11/2024,Mombasa
+178,William Potter,william.potter@gmail.com,34,Engineer,High,1/27/2023,Nakuru
+179,Paul Oconnell,paul.oconnell@gmail.com,37,Doctor,Low,6/29/2024,Nairobi
+180,Marie Bauer,marie.bauer@hotmail.com,45,Teacher,High,7/12/2025,Kisumu
+181,Kelli Henderson,kelli.henderson@gmail.com,34,Banker,Medium,7/22/2023,Eldoret
+182,Victoria Garrett,victoria.garrett@hotmail.com,42,Consultant,Low,11/6/2023,Nakuru
+183,Alyssa Gray,alyssa.gray@yahoo.com,44,Doctor,Low,1/11/2025,Nairobi
+184,Christian Roberts,christian.roberts@hotmail.com,29,Banker,Medium,11/30/2024,Kisumu
+185,Glenn Gilmore,glenn.gilmore@gmail.com,44,Engineer,Medium,8/7/2023,Eldoret
+186,Jamie Wright,jamie.wright@hotmail.com,39,Farmer,Medium,10/16/2023,Mombasa
+187,Wanda Gordon,wanda.gordon@hotmail.com,64,Doctor,Low,4/16/2025,Kisumu
+188,Gina Hill,gina.hill@yahoo.com,38,Civil Servant,Medium,5/6/2024,Mombasa
+189,Victoria Lewis,victoria.lewis@hotmail.com,24,Entrepreneur,Low,12/30/2023,Eldoret
+190,Robert Foster,robert.foster@hotmail.com,29,Engineer,Medium,12/9/2022,Mombasa
+191,Kari Armstrong,kari.armstrong@yahoo.com,24,Doctor,Low,8/11/2022,Kisumu
+192,Charles Cooper,charles.cooper@yahoo.com,49,Entrepreneur,Low,6/24/2024,Nairobi
+193,Sandra Thomas,sandra.thomas@yahoo.com,24,Engineer,High,11/13/2023,Mombasa
+194,Julie Andrews,julie.andrews@yahoo.com,40,Teacher,Low,12/13/2023,Kisumu
+195,John Pugh,john.pugh@yahoo.com,63,Farmer,High,6/9/2024,Mombasa
+196,Natalie Barron,natalie.barron@gmail.com,60,Doctor,Medium,9/13/2024,Nairobi
+197,Michael Stephens,michael.stephens@gmail.com,64,Teacher,High,4/27/2023,Eldoret
+198,Andrea Pierce,andrea.pierce@yahoo.com,64,Teacher,Medium,8/24/2024,Eldoret
+199,Caitlin Reyes,caitlin.reyes@hotmail.com,45,Teacher,Low,4/6/2023,Mombasa
+200,Benjamin Mitchell,benjamin.mitchell@yahoo.com,30,Farmer,High,5/7/2025,Thika
