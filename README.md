@@ -43,7 +43,7 @@ The Gold layer will focus on:
 
 - Designing **business-focused views** for executive analysis
 - Calculating **KPIs** such as portfolio growth, client activity, and risk exposure
-- Laying the groundwork for possible **Power BI** or **Tableau** integration
+- Laying the groundwork for possible **Power BI** integration
 
 ---
 
