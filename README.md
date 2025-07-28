@@ -4,7 +4,7 @@ This project is built to simulate data handling and analysis for an investment c
 
 The data is **AI-generated** and designed to reflect realistic financial structures and business logic. It enables practice in areas such as data cleaning, transformation, and performance analysis.
 
-📐 The project follows the **Medallion Architecture** (Bronze, Silver, and Gold layers) to structure the data workflow:
+🏗️ The project follows the **Medallion Architecture** (Bronze, Silver, and Gold layers) to structure the data workflow:
 - **Bronze** for raw ingested data  
 - **Silver** for cleaned and joined datasets  
 - **Gold** for final analysis-ready views
@@ -37,13 +37,28 @@ The data is **AI-generated** and designed to reflect realistic financial structu
 
 ---
 
-## 🛣️ Next Steps
+## 🏁 Gold Layer (Status: ✅ Completed)
 
-The Gold layer will focus on:
+- Constructed **star schema views** under the `gold` schema:
+  - **Fact Views**: `fact_investments`, `fact_transactions`, `fact_portfolio_performance`
+  - **Dimension Views**: `dim_clients`, `dim_portfolios`
+- Enriched the data with:
+  - Surrogate keys using `ROW_NUMBER()`
+  - Business metrics such as `performance_diff`, `return_ratio`, and `benchmark_flag`
+  - Derived fields like `onboard_year` and `onboard_month`
+- All transformations are fully handled within SQL views, making the data analytics-ready and logically structured for BI tools.
+- All scripts are available in the `/scripts/gold` folder.
 
-- Designing **business-focused views** for executive analysis
-- Calculating **KPIs** such as portfolio growth, client activity, and risk exposure
-- Laying the groundwork for possible **Power BI** integration
+---
+
+## 📊 Next Steps
+
+- Build **Power BI dashboards** using the Gold views.
+- Visualize and analyze trends across:
+  - Investment amounts by region, age group, or portfolio type
+  - Client activity and transaction patterns
+  - Portfolio performance versus benchmark over time
+- Answer **key stakeholder questions** with dynamic KPIs, filters, and time-series visualizations.
 
 ---
 
