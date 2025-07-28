@@ -37,7 +37,7 @@ The data is **AI-generated** and designed to reflect realistic financial structu
 
 ---
 
-## 🏁 Gold Layer (Status: ✅ Completed)
+## ✨ Gold Layer (Status: ✅ Completed)
 
 - Constructed **star schema views** under the `gold` schema:
   - **Fact Views**: `fact_investments`, `fact_transactions`, `fact_portfolio_performance`
