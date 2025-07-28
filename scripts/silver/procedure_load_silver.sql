@@ -73,21 +73,24 @@ BEGIN
 			client_id,
 			TRIM(name) AS name,
 			TRIM(email)AS email,
-			CASE WHEN age < 18 THEN NULL 
+			CASE WHEN age < 18 THEN NULL
 				 ELSE age 
-			END AS age,										            -- Replace invalid age with NULL
+			END AS age,					-- Replace invalid age with NULL
 			CASE 
 				WHEN age BETWEEN 18 AND 25 THEN '18-25'
 				WHEN age BETWEEN 26 AND 35 THEN '26-35'
 				WHEN age BETWEEN 36 AND 45 THEN '36-45'
 				WHEN age BETWEEN 46 AND 55 THEN '46-55'
 				WHEN age >= 56 THEN '55+'
-				ELSE NULL
-			END AS age_group,								          -- Derive a column age group
+				ELSE 'Unknown'
+			END AS age_group,				-- Derive a column age group
 			TRIM(occupation) AS occupation,
 			TRIM(risk_profile) AS risk_profile,
 			onboard_date,
-			NULLIF(TRIM(region), '') AS region				-- Replace blank spaces with NULL
+			CASE 
+				WHEN TRIM(region) = '' THEN 'Unknown'
+				ELSE TRIM(region)
+			END AS region					-- Replace blank spaces with Unknown
 		FROM bronze.clients;
 
 		-- --------------------------------------------
