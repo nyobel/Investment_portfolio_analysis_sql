@@ -44,7 +44,7 @@ FROM silver.investments i
 LEFT JOIN silver.clients c
 	ON i.client_id = c.client_id
 LEFT JOIN silver.portfolios p
-	ON	i.portfolio_id = p.portfolio_id
+	ON	i.portfolio_id = p.portfolio_id;
 
 GO
   
@@ -76,7 +76,7 @@ LEFT JOIN silver.clients c
 	ON	t.client_id = c.client_id
 LEFT JOIN silver.portfolios p
 	ON	t.portfolio_id = p.portfolio_id
-WHERE t.amount IS NOT NULL
+WHERE t.amount IS NOT NULL;
 
 GO
 -- ------------------------------------------------------------------
@@ -146,15 +146,15 @@ SELECT
 	onboard_date,
 	YEAR(onboard_date) AS onboard_year,
 	DATENAME(MONTH, onboard_date) AS onboard_month
-FROM silver.clients
+FROM silver.clients;
 
 GO
   
 -- ------------------------------------------------------------------
 -- Portfolios Dimension View: gold.dim_portfolio
 -- ------------------------------------------------------------------
-IF OBJECT_ID ('gold.dim_portfolio', 'V') IS NOT NULL
-	DROP VIEW gold.dim_portfolio;
+IF OBJECT_ID ('gold.dim_portfolios', 'V') IS NOT NULL
+	DROP VIEW gold.dim_portfolios;
 
 GO
 
@@ -166,4 +166,4 @@ SELECT
 	type AS portfolio_type,
 	risk_level,
 	manager AS manager_name
-FROM silver.portfolios
+FROM silver.portfolios;
