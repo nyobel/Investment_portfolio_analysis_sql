@@ -36,7 +36,7 @@ Key Processes
 - Batch loading using stored procedures
 - Foundation layer for downstream transformations
   
-All DDL scripts and the load procedure are included and documented in the `/scripts/bronze` folder.
+All DDL scripts and the load procedure are included and documented in the [Bronze Scripts](scripts/bronze) folder.
 
 
 ## ⚙️ Silver Layer 
@@ -57,7 +57,7 @@ The Silver layer cleans, standardizes, validates, and transforms raw Bronze data
 - Referential integrity through primary and foreign keys
 - Structured transformation using stored procedures
   
-All scripts are available in the `/scripts/silver` folder.
+All scripts are available in the [Silver Scripts](scripts/silver) folder.
 
 ---
 
@@ -89,7 +89,7 @@ The Gold layer provides analytics-ready views structured for reporting, business
 - dim_clients
 - dim_portfolios
 
-All scripts are available in the `/scripts/gold` folder.
+All scripts are available in the [Gold Scripts](scripts/gold) folder.
 
 ---
 
