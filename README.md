@@ -12,9 +12,12 @@ The goal of this project is to simulate how an investment company could structur
 ## 🏗️ Architecture Overview
 
 The project follows the **Medallion Architecture** (Bronze, Silver, and Gold layers) to structure the data workflow:
+
 - **Bronze** for raw ingested data  
 - **Silver** for cleaned and joined datasets  
 - **Gold** for final analysis-ready views
+
+![Investment Data Architecture](docs/investment_data_architecture.png)
 
 ---
 
@@ -32,48 +35,74 @@ Key Processes
 - Initial raw data storage
 - Batch loading using stored procedures
 - Foundation layer for downstream transformations
-- All DDL scripts and the load procedure are included and documented in the `/scripts/bronze` folder.
+  
+All DDL scripts and the load procedure are included and documented in the `/scripts/bronze` folder.
 
 
-## ⚙️ Silver Layer (Status: ✅ Completed)
+## ⚙️ Silver Layer 
 
-- Created cleaned versions of the Bronze tables under the `silver` schema.
-- Built a stored procedure `silver.load_silver` that:
-  - **Deletes existing records** in the correct referential order (child → parent) to avoid FK conflicts.
-  - **Inserts cleaned data** with logic applied such as:
-    - Trimming whitespace
-    - Replacing invalid values (e.g., negative amounts or underage clients)
-    - Standardizing `transaction_type` entries
-    - Creating derived fields like `age_group`
-- Maintains foreign key constraints between related tables to preserve integrity.
-- Logging and error handling is built into the procedure using `TRY...CATCH` and `PRINT` statements.
-- All scripts are available in the `/scripts/silver` folder.
 
----
+The Silver layer cleans, standardizes, validates, and transforms raw Bronze data into structured datasets ready for analytical modeling.
 
-## ✨ Gold Layer (Status: ✅ Completed)
+### Tables
 
-- Constructed **star schema views** under the `gold` schema:
-  - **Fact Views**: `fact_investments`, `fact_transactions`, `fact_portfolio_performance`
-  - **Dimension Views**: `dim_clients`, `dim_portfolios`
-- Enriched the data with:
-  - Surrogate keys using `ROW_NUMBER()`
-  - Business metrics such as `performance_diff`, `return_ratio`, and `benchmark_flag`
-  - Derived fields like `onboard_year` and `onboard_month`
-- All transformations are fully handled within SQL views, making the data analytics-ready and logically structured for BI tools.
-- All scripts are available in the `/scripts/gold` folder.
+![Silver Tables](docs/silver_tables.png)
+
+### Key Transformations
+
+- Data cleaning and standardization
+- Validation of inconsistent and invalid records
+- Derived columns such as `age_group`
+- Standardized transaction categories
+- Referential integrity through primary and foreign keys
+- Structured transformation using stored procedures
+  
+All scripts are available in the `/scripts/silver` folder.
 
 ---
 
-## 📊 Next Steps
+## ✨ Gold Layer
 
-- Build **Power BI dashboards** using the Gold views.
-- Visualize and analyze trends across:
-  - Investment amounts by region, age group, or portfolio type
-  - Client activity and transaction patterns
-  - Portfolio performance versus benchmark over time
-- Answer **key stakeholder questions** with dynamic KPIs, filters, and time-series visualizations.
+The Gold layer provides analytics-ready views structured for reporting, business analysis, and downstream consumption.
+
+### Views
+
+![Gold Views](docs/gold_views.png)
+
+### Analytical Features
+
+- Star schema dimensional modeling
+- Fact and dimension views
+- Business metrics and aggregations
+- Portfolio performance analysis
+- Benchmark comparison metrics
+- Query-ready analytical datasets
+
+### Fact Views
+
+- fact_investments
+- fact_transactions
+- fact_portfolio_performance
+
+### Dimension Views
+
+- dim_clients
+- dim_portfolios
+
+All scripts are available in the `/scripts/gold` folder.
 
 ---
 
-This structure supports traceability and scalability while mimicking how modern data systems are organized in practice. The project will grow over time with additional logic, insights, and possibly dashboards.
+## 🛠️ Key Skills Demonstrated
+
+- SQL Development
+- Data Warehousing
+- ETL Pipeline Design
+- Medallion Architecture
+- Data Cleaning & Validation
+- Star Schema Modeling
+- Analytical Query Design
+- Financial Performance Analysis
+- Stored Procedures
+- Data Transformation
+
