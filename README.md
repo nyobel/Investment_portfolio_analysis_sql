@@ -4,20 +4,34 @@ This project is built to simulate data handling and analysis for an investment c
 
 The data is **AI-generated** and designed to reflect realistic financial structures and business logic. It enables practice in areas such as data cleaning, transformation, and performance analysis.
 
-🏗️ The project follows the **Medallion Architecture** (Bronze, Silver, and Gold layers) to structure the data workflow:
+## 📌 Business Objective
+
+The goal of this project is to simulate how an investment company could structure and transform raw financial data into reliable, analysis-ready datasets for reporting, portfolio monitoring, and decision-making.
+
+
+## 🏗️ Architecture Overview
+
+The project follows the **Medallion Architecture** (Bronze, Silver, and Gold layers) to structure the data workflow:
 - **Bronze** for raw ingested data  
 - **Silver** for cleaned and joined datasets  
 - **Gold** for final analysis-ready views
 
 ---
 
-## 🔰 Bronze Layer (Status: ✅ Completed)
+## 🔰 Bronze Layer
 
-- Created five tables under the `bronze` schema: `clients`, `portfolios`, `investments`, `portfolio_performance`, and `transactions`.
-- Data was loaded from CSV files.
-- `clients` and `portfolios` were ingested via `BULK INSERT` using a stored procedure `bronze.load_bronze`.
-- Due to decimal compatibility issues with SQL Server Express/Developer editions:
-  - `investments`, `portfolio_performance`, and `transactions` were imported using **Flat File Import Wizard**.
+The Bronze layer stores raw ingested data loaded directly from CSV files into SQL Server tables with minimal transformation.
+
+Tables
+
+![Bronze Tables](docs/bronze_tables.png)
+  
+Key Processes
+
+- Bulk data ingestion from CSV files
+- Initial raw data storage
+- Batch loading using stored procedures
+- Foundation layer for downstream transformations
 - All DDL scripts and the load procedure are included and documented in the `/scripts/bronze` folder.
 
 
