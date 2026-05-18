@@ -1,8 +1,8 @@
 # Investment_portfolio_analysis_sql
 
-This project is built to simulate data handling and analysis for an investment company. It uses **SQL** within **SQL Server Management Studio (SSMS)** to explore and manage datasets related to clients, portfolios, investments, and transactions.
+This project simulates a modern investment data warehouse built using SQL Server and Medallion Architecture principles.
 
-The data is **AI-generated** and designed to reflect realistic financial structures and business logic. It enables practice in areas such as data cleaning, transformation, and performance analysis.
+The system transforms raw financial data into clean, analytics-ready datasets for portfolio analysis, reporting, and business decision-making.
 
 ## 📌 Business Objective
 
@@ -14,7 +14,7 @@ The goal of this project is to simulate how an investment company could structur
 The project follows the **Medallion Architecture** (Bronze, Silver, and Gold layers) to structure the data workflow:
 
 - **Bronze** for raw ingested data  
-- **Silver** for cleaned and joined datasets  
+- **Silver** for cleaned and transformed datasets  
 - **Gold** for final analysis-ready views
 
 ![Investment Data Architecture](docs/investment_data_architecture.png)
@@ -25,19 +25,20 @@ The project follows the **Medallion Architecture** (Bronze, Silver, and Gold lay
 
 The Bronze layer stores raw ingested data loaded directly from CSV files into SQL Server tables with minimal transformation.
 
-Tables
+### Tables
 
 ![Bronze Tables](docs/bronze_tables.png)
   
-Key Processes
+### Key Processes
 
 - Bulk data ingestion from CSV files
 - Initial raw data storage
 - Batch loading using stored procedures
 - Foundation layer for downstream transformations
   
-All DDL scripts and the load procedure are included and documented in the [Bronze Scripts](scripts/bronze) folder.
+All DDL scripts and the load procedure are available in the [Bronze Scripts](scripts/bronze) folder.
 
+---
 
 ## ⚙️ Silver Layer 
 
@@ -63,7 +64,7 @@ All scripts are available in the [Silver Scripts](scripts/silver) folder.
 
 ## ✨ Gold Layer
 
-The Gold layer provides analytics-ready views structured for reporting, business analysis, and downstream consumption.
+The Gold layer provides analytics-ready views designed for reporting, business analysis, and downstream consumption.
 
 ### Views
 
